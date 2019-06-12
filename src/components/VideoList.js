@@ -2,9 +2,9 @@ import React from 'react';
 
 import VideoItem from './VideoItem';
 
-const VideoList = ({ videos }) => {
+const VideoList = ({ videos, onVideoClick }) => {
   const videoList = videos.map(video => {
-    return <VideoItem video={video} />;
+    return <VideoItem video={video} onItemClick={onVideoClick} />;
   });
 
   return <div className="ui celled list">{videoList}</div>;
