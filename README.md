@@ -2,7 +2,7 @@
 > React application to search and access youtube videos.
 
 <div style="align: center">
-    <img src="./react-videos.png" />
+    <img src="./videos.png" />
 </div>
 
 ## Technologies Used
