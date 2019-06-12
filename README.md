@@ -2,4 +2,4 @@
 > React application to search and access youtube videos.
 
 ## Technologies Used
-> Javascript, React, Google YouTube API, Semantic UI, CSS, HTML5
+> Javascript, React, YouTube Data API, Axios, Semantic UI, CSS, HTML5
