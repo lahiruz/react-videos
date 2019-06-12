@@ -1,7 +1,13 @@
 import React from 'react';
 
-const VideoList = props => {
-  return <div>{props.videos.length}</div>;
+import VideoItem from './VideoItem';
+
+const VideoList = ({ videos }) => {
+  const videoList = videos.map(video => {
+    return <VideoItem video={video} />;
+  });
+
+  return <div className="ui celled list">{videoList}</div>;
 };
 
 export default VideoList;
