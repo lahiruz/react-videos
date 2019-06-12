@@ -1,6 +1,10 @@
 # React Videos
 > React application to search and access youtube videos.
 
+<div style="align: center">
+    <img src="./react-videos.png" />
+</div>
+
 ## Technologies Used
 > Javascript, React, Axios, Semantic UI, CSS, HTML5
 
